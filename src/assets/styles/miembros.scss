@@ -1,0 +1,50 @@
+/**
+ * Import variables
+ */
+
+ @import "variables";
+
+ * {
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+
+  width: 100%;
+  height: 20vh;
+  //padding: 0.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.miembro {
+  //width: 20vw;
+  height: 10vh;
+  margin: 0.5rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: palevioletred;
+  //flex-basis: 20%;
+  flex-shrink: 1;
+  align-self: center;
+}
+.titulo {
+  //width: 13vw;
+  height: 10vh;
+  margin: 0.5rem;
+  padding: 2rem;
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(228, 138, 126);
+}
+h1 {
+  font-family: $header-font;
+  color: $accent;
+  font-size: calc(1em + 5vw);
+  margin-bottom: 0.25em;
+  padding-left: 0.25em;
+
+}
